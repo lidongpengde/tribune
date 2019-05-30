@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fc.mapper.TopicMapper">
+
+    <select id="listTopic" resultType="com.fc.model.Topic">
+        select tid,name,content,image from topic
+    </select>
+
+    <select id="listImage" resultType="string">
+        select image_url from image
+    </select>
+    <insert id="addTopic" parameterType="com.fc.model.Topic">
+        insert into topic
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="tid != null">
+                tid,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="content != null">
+                content,
+            </if>
+            <if test="image != null">
+                image,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="tid != null">
+                #{tid,jdbcType=INTEGER},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="content != null">
+                #{content,jdbcType=VARCHAR},
+            </if>
+            <if test="image != null">
+                #{image,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+</mapper>
