@@ -60,7 +60,7 @@ public class LoginController {
      * 登录
      * @param user
      * @param model
-     * @param session
+     * @param request
      * @return
      */
     @RequestMapping(value = "/login.do",method = RequestMethod.POST)
@@ -69,8 +69,8 @@ public class LoginController {
         if(map.get("status").equals("yes")){
             Cookie cookie= MyUtil.getCookieByName(request, "JSESSIONID");
             jedis.set(cookie.getValue(),map.get("uid").toString());
-            request.getSession().setAttribute("uid",map.get("uid"));
-            request.getSession().setAttribute("headUrl",map.get("headUrl"));
+            //request.getSession().setAttribute("uid",map.get("uid"));
+            //request.getSession().setAttribute("headUrl",map.get("headUrl"));
             return "redirect:toMyProfile.do";
         }else {
             model.addAttribute("email",user.getEmail());
@@ -82,7 +82,7 @@ public class LoginController {
 
     /**
      * 激活
-     * @param activateCode
+     * @param code
      * @param model
      * @return
      */
