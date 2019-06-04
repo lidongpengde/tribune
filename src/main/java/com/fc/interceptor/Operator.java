@@ -29,7 +29,6 @@ public class Operator {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
         HttpServletResponse response = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getResponse();
         userService.record(request);
-        System.out.println(1);
     }
 
     @After("pointCut()")

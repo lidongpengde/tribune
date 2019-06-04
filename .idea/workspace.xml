@@ -1,155 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fc34cd-b382-4200-be0f-1d6d92c73dcd" name="Default" comment="first">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/fc/mapper/CommonTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/async/MailTask$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/async/MailTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/async/MessageTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/MessageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/PostController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/ReplyController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/TopicController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/interceptor/LoginInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/interceptor/Operator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/MessageMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/MessageMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/PostMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/PostMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/ReplyMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/ReplyMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/TopicMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/TopicMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/MessageResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/PageBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Post.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Reply.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/Topic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/IPostService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/Impl/PostService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/LoginService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/MessageService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/QiniuService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/ReplyService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/TopicService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/util/MyConstant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/fc/util/MyUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/df.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/aspectjweaver-1.8.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/commons-pool2-2.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/fastjson-1.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/gson-2.8.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/jedis-3.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/jsqlparser-0.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/mybatis-3.2.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/okhttp-3.11.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/okio-1.14.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/pagehelper-4.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/protobuf-java-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/qiniu-java-sdk-7.2.19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/slf4j-api-1.7.22.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-aspects-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-orm-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-test-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/editProfile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/image.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/message.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/myProfile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/post.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/profile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/prompt/afterForgetPassword.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/prompt/promptInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/publish.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/view/topic.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/editProfile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/message.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/post.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/profile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/publish.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/topic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/wangEditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/css/wangEditor.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/fonts/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/image/a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/image/b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/image/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/js/ajaxfileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/js/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/js/wangEditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fc.mapper.UserMapperTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.fc.mapper.UserMapperTest.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class" afterPath="$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/fc/mapper/UserMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/fc/mapper/UserMapperTest.class" />
+    <list default="true" id="d9fc34cd-b382-4200-be0f-1d6d92c73dcd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -194,34 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostService.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#3847#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -371,7 +203,6 @@
         <option value="$PROJECT_DIR$/df.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/post.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fc/mapper/CommonTest.java" />
         <option value="$PROJECT_DIR$/test.md" />
         <option value="$PROJECT_DIR$/新车电商CRM系统性能优化实践.md" />
@@ -380,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java" />
       </list>
     </option>
   </component>
@@ -1104,7 +936,7 @@
       <workItem from="1559198817159" duration="13000" />
       <workItem from="1559198964545" duration="9241000" />
       <workItem from="1559214147125" duration="17979000" />
-      <workItem from="1559642260313" duration="65000" />
+      <workItem from="1559642260313" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="从今以后我来继续更新这个论坛">
       <created>1555656623198</created>
@@ -1281,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559214175976</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="first">
+      <created>1559642346206</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1559642346206</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1317,7 +1156,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162408000" />
+    <option name="totallyTimeSpent" value="163009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1352,9 +1191,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36477274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5318182" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18863636" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15681818" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15681818" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22097977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1683,6 +1522,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,14 +1618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1803,20 +1635,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example.log" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <element signature="e#0#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/interceptor/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="452">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1921,5 +1761,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
