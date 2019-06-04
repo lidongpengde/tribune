@@ -40,6 +40,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter{
         String uidStr = jedis.get(cookie.getValue());
         if (!StringUtils.isEmpty(uidStr)){
             uid = Integer.parseInt(uidStr);
+            request.getSession().setAttribute("uid",uid);
         }
         if(uid == null){
             request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);

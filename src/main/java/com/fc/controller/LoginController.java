@@ -15,6 +15,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @Controller
 @RequestMapping("/")
@@ -69,8 +70,9 @@ public class LoginController {
         if(map.get("status").equals("yes")){
             Cookie cookie= MyUtil.getCookieByName(request, "JSESSIONID");
             jedis.set(cookie.getValue(),map.get("uid").toString());
-            //request.getSession().setAttribute("uid",map.get("uid"));
-            //request.getSession().setAttribute("headUrl",map.get("headUrl"));
+            jedis.expire(cookie.getValue(),60*60*60);
+            request.getSession().setAttribute("uid",map.get("uid"));
+            request.getSession().setAttribute("headUrl",map.get("headUrl"));
             return "redirect:toMyProfile.do";
         }else {
             model.addAttribute("email",user.getEmail());
