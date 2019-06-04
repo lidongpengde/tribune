@@ -18,5 +18,8 @@ public class UserMapperTest {
     @Test
     public void tset0(){
         jedis.del("post_prefix1");
+        jedis.del("post_prefix2");
+        jedis.del("post_prefix3");
+        jedis.del("post_prefix4");
     }
 }

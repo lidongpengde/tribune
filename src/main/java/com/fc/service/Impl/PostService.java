@@ -1,6 +1,7 @@
 package com.fc.service.Impl;
 
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.TypeReference;
 import com.fc.async.MessageTask;
 import com.fc.mapper.MessageMapper;
 import com.fc.mapper.PostMapper;
@@ -21,6 +22,7 @@ import redis.clients.jedis.Jedis;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 @Service
@@ -73,25 +75,18 @@ public class PostService implements IPostService {
     public PageInfo<Post> listPostByTime(int pageNum) {
         List<Post> postList =null;
         PageHelper.startPage(pageNum, 6);
-        List<String> result = jedis.lrange(POST_KEY+pageNum,0,-1);
-        if (result==null || result.size()==0){
+        String result = jedis.get(POST_KEY+pageNum);
+        PageInfo<Post> pageInfo =null;
+        pageInfo = JSONObject.parseObject(result,new TypeReference<PageInfo<Post>>(){});
+        if (result==null){
             postList = postMapper.listPostByTime(null);
-            for (Post post:postList) {
-                jedis.lpush(POST_KEY+pageNum,JSONObject.toJSONString(post));
-            }
+            pageInfo = new PageInfo<>(postList);
+            jedis.set(POST_KEY+pageNum,JSONObject.toJSONString(pageInfo));
             jedis.expire(POST_KEY,60*60*24);
 
         }
-        if (postList == null){
-            postList =new ArrayList<>();
-            for (String tempStr:result) {
-                Post p = JSONObject.parseObject(tempStr,Post.class);
-                postList.add(p);
-            }
-        }
         //分页得到数据列表
-        PageInfo<Post> pageInfo = new PageInfo<>(postList);
-        for(Post post : postList){
+        for(Post post : pageInfo.getList()){
             post.setLikeCount((int)(long)jedis.scard(post.getPid()+":like"));
         }
         return pageInfo;
