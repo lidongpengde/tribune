@@ -77,9 +77,7 @@ public class PostController {
         Post post = postService.getPostByPid(pid);
         //获取评论信息
         List<Reply> replyList = replyService.listReply(pid);
-
         //判断用户是否已经点赞
-
         boolean liked = false;
         if(sessionUid!=null){
             liked = postService.getLikeStatus(pid,sessionUid);
