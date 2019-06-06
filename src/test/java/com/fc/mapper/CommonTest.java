@@ -1,5 +1,6 @@
 package com.fc.mapper;
 
+import com.google.common.util.concurrent.RateLimiter;
 import org.junit.Test;
 
 /**
@@ -7,22 +8,18 @@ import org.junit.Test;
  */
 public class CommonTest {
     @Test
-    public void fff1(){
-        try {
-            System.out.println(1);
-            fff2();
-        }catch (Exception e){
-            System.out.println("error1");
-        }finally {
-            System.out.println("final");
-        }
-    }
-    public void fff2(){
-        try {
-            throw new Exception();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println(2);
-        }
+    public  void main() throws InterruptedException {
+        RateLimiter limiter = RateLimiter.create(10);// 代码1
+        Thread.currentThread().sleep(1000);//步骤1
+        if (limiter.tryAcquire(20))//代码2
+            System.out.println("======== Time1:" + System.currentTimeMillis() / 1000);
+
+        Thread.currentThread().sleep(1001);
+        if (limiter.tryAcquire(1))//代码3
+            System.out.println("======== Time2:" + System.currentTimeMillis() / 1000);
+
+        if (limiter.tryAcquire(5))
+            System.out.println("======== Time3:" + System.currentTimeMillis() / 1000);
+
     }
 }

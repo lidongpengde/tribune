@@ -61,7 +61,12 @@
     font: 14px/1.5 "微软雅黑";
 }
 
-
+.post-desc img{
+    width: 100%;
+}
+.post-desc video{
+    width: 100%;
+}
 
 /*中间部分*/
 .main-left .post-reply{
