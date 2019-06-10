@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fc34cd-b382-4200-be0f-1d6d92c73dcd" name="Default" comment="first">
+    <list default="true" id="d9fc34cd-b382-4200-be0f-1d6d92c73dcd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class" afterPath="$PROJECT_DIR$/target/classes/com/fc/service/Impl/PostService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/fc/mapper/UserMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/fc/mapper/UserMapperTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/fc/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/fc/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fc/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/fc/mapper/UserMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,17 +25,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -268,9 +264,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/fc/mapper/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/fc/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java" />
       </list>
     </option>
   </component>
@@ -1179,7 +1175,7 @@
       <workItem from="1559214147125" duration="17979000" />
       <workItem from="1559642260313" duration="6020000" />
       <workItem from="1559701334975" duration="2977000" />
-      <workItem from="1559809511930" duration="12259000" />
+      <workItem from="1559809511930" duration="12284000" />
     </task>
     <task id="LOCAL-00001" summary="从今以后我来继续更新这个论坛">
       <created>1555656623198</created>
@@ -1398,7 +1394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559814665024</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="first">
+      <created>1560147304664</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560147304664</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1434,7 +1437,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183599000" />
+    <option name="totallyTimeSpent" value="183624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1892,14 +1895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1963,6 +1958,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fc/service/Impl/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
           <folding />
         </state>
       </provider>
