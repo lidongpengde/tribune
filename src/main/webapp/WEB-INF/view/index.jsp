@@ -58,51 +58,20 @@
                     <%--分页导航--%>
                     <nav class="col-md-10 col-md-offset-2">
                         <ul class="pagination pagination-sm" style="display: block;">
-                            <%--首页--%>
-                            <li><a href="listPostByTime.do?pageNum=1">首页</a></li>
+                            <%--&lt;%&ndash;首页&ndash;%&gt;--%>
+                            <%--<li><a href="listPostByTime.do?pageNum=1">首页</a></li>--%>
                             <%--上一页--%>
                             <c:choose>
                                 <c:when test="${pageBean.pageNum!=1 }">
-                                    <li><a href="listPostByTime.do?pageNum=${pageBean.pageNum-1 }"><span>&laquo;</span></a></li>
+                                    <li style="float: left"><a href="listPostByTime.do?pageNum=${pageBean.pageNum-1 }"><span>&laquo;上一页</span></a></li>
                                 </c:when>
-                                <c:otherwise>
-                                    <li><span>&laquo;</span></li>
-                                </c:otherwise>
-                            </c:choose>
-                            <%--中间部分--%>
-                            <c:choose>
-                                <c:when test="${pageBean.pages<=10 }">
-                                    <c:forEach begin="1" end="${ pageBean.pages}" var="i">
-                                        <li class="pageNum"><a href="listPostByTime.do?pageNum=${i }">${i }</a></li>
-                                    </c:forEach>
-                                </c:when>
-                                <c:when test="${pageBean.pageNum<=5 }">
-                                    <c:forEach begin="1" end="10" var="i">
-                                        <li class="pageNum"><a href="listPostByTime.do?pageNum=${i }">${i }</a></li>
-                                    </c:forEach>
-                                </c:when>
-                                <c:when test="${pageBean.pages-pageBean.pageNum<5 }">
-                                    <c:forEach begin="${pageBean.pages-9 }" end="${ pageBean.pages}" var="i">
-                                        <li class="pageNum"><a href="listPostByTime.do?pageNum=${i }">${i }</a></li>
-                                    </c:forEach>
-                                </c:when>
-                                <c:otherwise>
-                                    <c:forEach begin="${pageBean.pageNum-4 }" end="${ pageBean.pageNum+5}" var="i">
-                                        <li class="pageNum"><a href="listPostByTime.do?pageNum=${i }">${i }</a></li>
-                                    </c:forEach>
-                                </c:otherwise>
                             </c:choose>
                             <%--下一页--%>
                             <c:choose>
                                 <c:when test="${pageBean.pageNum!=pageBean.pages }">
-                                    <li><a href="listPostByTime.do?pageNum=${pageBean.pageNum+1 }"><span>&raquo;</span></a></li>
+                                    <li style="float: right"><a href="listPostByTime.do?pageNum=${pageBean.pageNum+1 }"><span>下一页&raquo;</span></a></li>
                                 </c:when>
-                                <c:otherwise>
-                                    <li><span>&raquo;</span></li>
-                                </c:otherwise>
                             </c:choose>
-                            <%--尾页--%>
-                            <li><a href="listPostByTime.do?pageNum=${pageBean.pages}">尾页</a></li>
                         </ul>
                     </nav>
 

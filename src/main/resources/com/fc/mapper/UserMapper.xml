@@ -51,11 +51,11 @@
     </insert>
 
     <select id="listUserByTime" resultType="com.fc.model.User">
-        select uid,username,head_url from user order by join_time desc
+        select uid,username,head_url from user order by join_time desc limit 6
     </select>
 
     <select id="listUserByHot" resultType="com.fc.model.User">
-        select uid,username,head_url from user order by post_count desc
+        select uid,username,head_url from user order by post_count desc limit 6
     </select>
 
     <update id="updateHeadUrl">

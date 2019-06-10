@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Pipeline;
+import redis.clients.jedis.Response;
 
 import java.util.List;
 
@@ -17,9 +19,8 @@ public class UserMapperTest {
 
     @Test
     public void tset0(){
-        jedis.del("post_prefix1");
-        jedis.del("post_prefix2");
-        jedis.del("post_prefix3");
-        jedis.del("post_prefix4");
+//        Long a =jedis.del("post_prefix1","post_prefix2","post_prefix3","post_prefix4");
+//        Long b =jedis.del("post_prefix*");
+        Object  c = jedis.eval("redis-cli keys \"map_info_*\" | xargs redis-cli del");
     }
 }

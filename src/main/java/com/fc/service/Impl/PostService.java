@@ -74,15 +74,15 @@ public class PostService implements IPostService {
     //按时间列出帖子
     public PageInfo<Post> listPostByTime(int pageNum) {
         List<Post> postList =null;
-        PageHelper.startPage(pageNum, 6);
         String result = jedis.get(POST_KEY+pageNum);
         PageInfo<Post> pageInfo =null;
         pageInfo = JSONObject.parseObject(result,new TypeReference<PageInfo<Post>>(){});
         if (result==null){
+            PageHelper.startPage(pageNum, 6);
             postList = postMapper.listPostByTime(null);
             pageInfo = new PageInfo<>(postList);
-            jedis.set(POST_KEY+pageNum,JSONObject.toJSONString(pageInfo));
-            jedis.expire(POST_KEY,60*60*24);
+//            jedis.set(POST_KEY+pageNum,JSONObject.toJSONString(pageInfo));
+//            jedis.expire(POST_KEY,60*60*24);
 
         }
         //分页得到数据列表
