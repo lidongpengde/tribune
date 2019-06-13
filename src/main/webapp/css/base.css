@@ -394,7 +394,7 @@ body{
 }
 
 .main-left .post-list .post-image img{
-    display: block;
+    /*display: block;*/
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -441,7 +441,11 @@ body{
     color: #FF6547;
     text-decoration: none;
 }
-
+.post-username a{
+    margin-right: 20px;
+    color: #FF6547;
+    text-decoration: none;
+}
 .main-left .post-list .post-content .post-other .post-other-left .post-username a:hover{
     color: #FF6547;
 }
