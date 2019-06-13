@@ -17,6 +17,7 @@
         <result column="reply_count" property="replyCount"/>
         <result column="like_count" property="likeCount"/>
         <result column="scan_count" property="scanCount"/>
+        <result column="poster" property="poster"/>
         <association property="user" javaType="com.fc.model.User" resultMap="userMap" />
     </resultMap>
 
@@ -46,7 +47,7 @@
     </insert>
 
     <select id="listPostByTime" resultMap="postMap">
-        select u.uid,u.username,u.head_url,p.pid,p.title,p.publish_time,p.reply_time,p.reply_count,p.like_count,p.scan_count from post p
+        select u.uid,u.username,u.head_url,p.pid,p.title,p.publish_time,p.reply_time,p.reply_count,p.like_count,p.scan_count,p.poster from post p
         join user u on p.uid = u.uid
         order by p.reply_time desc
     </select>

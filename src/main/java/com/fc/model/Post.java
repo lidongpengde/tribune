@@ -6,6 +6,16 @@ public class Post {
     //标题和内容
     private String title;
     private String content;
+
+    public String getPoster() {
+        return poster;
+    }
+
+    public void setPoster(String poster) {
+        this.poster = poster;
+    }
+
+    private String poster;
     //两个时间
     private String publishTime;
     private String replyTime;
@@ -18,6 +28,7 @@ public class Post {
     //两个外键
     private User user;
     private Topic topic;
+
 
     public Post() {}
 
