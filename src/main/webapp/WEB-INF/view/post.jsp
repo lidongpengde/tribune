@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>${post.title}</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/wangEditor.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
