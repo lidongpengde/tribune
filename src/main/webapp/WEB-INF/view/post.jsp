@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/wangEditor.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/post.css">
+    <meta name="keywords" content="${post.title}">
+    <meta name="description" content="${post.title}">
 </head>
 <body>
 <%@ include file="header.jsp" %>

@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="keywords" content="笑话,搞笑,笑话大全 爆笑,笑话大全,每日笑话,幽默笑话,爆笑笑话">
+	<meta name="description" content="每日笑话是一个原创的糗事笑话分享社区,糗百网友分享的搞笑段子、搞笑图片大全,都是糗友最珍贵的开心经历,爆笑糗事笑话只在每日笑话！">
 </head>
 <body>
 <%@ include file="header.jsp" %>
