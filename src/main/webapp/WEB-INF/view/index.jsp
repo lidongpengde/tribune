@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>每日笑话</title>
+	<title>求其一等</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -30,11 +30,11 @@
 					<ul class="post-list">
 						<c:forEach items="${pageBean.list}" var="post">
                             <li class="clearfix">
-                                <div class="post-image">
+                                <div class="post-image col-xs-2 col-md-3">
                                     <a href="toProfile.do?uid=${post.user.uid}"><img src="${post.poster}"></a>
 									<span class="post-username"><a href="toProfile.do?uid=${post.user.uid}">${post.user.username}</a></span>
                                 </div>
-                                <div class="post-content">
+                                <div class="post-content col-xs-9 col-md-5">
                                     <div class="post-title"><a href="toPost.do?pid=${post.pid}">${post.title}</a></div>
                                     <div class="post-other">
                                         <div class="post-other-left">
