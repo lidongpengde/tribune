@@ -11,7 +11,7 @@ body{
 fieldset, img, input, button {
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 10px 0 0 0;
     outline-style: none;
 }
 

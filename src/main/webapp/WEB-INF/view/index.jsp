@@ -32,19 +32,19 @@
 					<ul class="post-list">
 						<c:forEach items="${pageBean.list}" var="post">
                             <li class="clearfix">
-                                <div class="post-image col-xs-2 col-md-3">
-                                    <a href="toProfile.do?uid=${post.user.uid}"><img src="${post.poster}"></a>
-									<span class="post-username"><a href="toProfile.do?uid=${post.user.uid}">${post.user.username}</a></span>
+                                <div class="post-image col-xs-2 col-md-2">
+                                    <a href="toPost.do?pid=${post.pid}"><img src="${post.poster}"></a>
+									<%--<span class="post-username"><a href="toProfile.do?uid=${post.user.uid}">${post.user.username}</a></span>--%>
                                 </div>
-                                <div class="post-content col-xs-9 col-md-5">
+                                <div class="post-content col-xs-9 col-md-8">
                                     <div class="post-title"><a href="toPost.do?pid=${post.pid}">${post.title}</a></div>
                                     <div class="post-other">
-                                        <div class="post-other-left">
+                                        <%--<div class="post-other-left">--%>
 
-                                            <span>&nbsp;最后回复&nbsp;</span>
-                                            <span class="post-reply-time">${post.replyTime}</span>
-                                        </div>
-                                        <div class="post-other-right">
+                                            <%--<span>&nbsp;最后回复&nbsp;</span>--%>
+                                            <%--<span class="post-reply-time">${post.replyTime}</span>--%>
+                                        <%--</div>--%>
+                                        <div class="post-other-left">
                                             <span class="post-reply-count">回复 ${post.replyCount}</span>&nbsp;
                                             <span class="post-like-count">赞 ${post.likeCount}</span>&nbsp;
                                             <span class="post-scan-count">浏览 ${post.scanCount}</span>
