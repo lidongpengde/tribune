@@ -17,6 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import redis.clients.jedis.Jedis;
 
 import java.util.ArrayList;
@@ -88,6 +89,9 @@ public class PostService implements IPostService {
         //分页得到数据列表
         for(Post post : pageInfo.getList()){
             post.setLikeCount((int)(long)jedis.scard(post.getPid()+":like"));
+            if (StringUtils.isEmpty(post.getPoster())){
+                post.setPoster(MyConstant.QINIU_IMAGE_URL +"d28e55d4-072f-426c-a3a0-6d719aaec2b5.png");
+            }
         }
         return pageInfo;
     }
