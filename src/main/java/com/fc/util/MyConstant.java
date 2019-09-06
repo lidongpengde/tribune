@@ -9,7 +9,7 @@ public class MyConstant {
     public static final String QINIU_BUCKET_NAME = "image_space";
 
     //发送邮件的邮箱，要与df.properties中的一致
-    public static final String MAIL_FROM = "821888642@qq.com";
+    public static final String MAIL_FROM = "13153771737@163.com";
 
     //域名
     
